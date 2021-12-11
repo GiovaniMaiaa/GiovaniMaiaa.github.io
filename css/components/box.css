@@ -1,0 +1,16 @@
+#box {
+    display: inline-block;
+    background-color: #F2D1B5;
+    box-shadow: 10px 10px 4px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 16.5px 0;
+}
+
+#box h1 {
+    margin-bottom: 14px;
+}
+
+#box h2 {
+    margin: 0 60px;
+}
