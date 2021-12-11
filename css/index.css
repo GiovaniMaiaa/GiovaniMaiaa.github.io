@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    justify-content: space-between; /** para separar os elementos em cada ponta no caso img de <a> */
+    background-color: #F2D1B5;
+    border-bottom: 2px solid;
+    border-color: black;
+    padding: 10px 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: white; /** cor*/
+    font-size: 20px;/** tamanho da fonte*/
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none; /** decoração da fonte ex:underline etc*/
+    margin-right: 30px; /** tamanho da margem*/
+    text-shadow: 2px 2px 3px black; /** sobra no texto*/
+}
+a::before{
+    content: "";
+    display: inline-block;
+    background-color: #9F3434;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #9F3434;
+    height: 60px; /** autura*/
+    line-height: 60px; /** espessura da linha*/
+    padding-left: 20px; 
+    padding-right: 20px; 
+    box-shadow: 5px 5px 3px black; /** sombra da caixa(botão)*/
+    border-radius: 10px; /** arrdondar a borda do botão*/
+    margin-right: 0px;
+    font-size: 20px;/** tamanho da fonte*/
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white; 
+    cursor:pointer;/** para mudar o cursor quando passa o mouse*/
+    padding-bottom: 17px;
+    border:none; /**tirar borda do botão  */
+    transition: 300ms;
+    
+              
+}
+
+.btn:hover { /**hover= quando poem o mouse em cima */
+    background-color: #6e1313;
+    transform: scale(1.05);
+    
+}
+.btn:active { /**quando clica */
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: none;
+    
+}
