@@ -1,3 +1,7 @@
+@font-face {
+    font-family:"gang" ;
+    src: url("../assets/fonts/go3v2.ttf") format("truetype");
+}
 header {
     display: flex;
     justify-content: space-between; /** para separar os elementos em cada ponta no caso img de <a> */
@@ -6,11 +10,9 @@ header {
     border-color: black;
     padding: 10px 20px;
 }
-
 nav {
     text-align: right;
 }
-
 a {
     display: inline-flex;
     align-items: center;
@@ -30,8 +32,6 @@ a::before{
     height: 10px;
     margin-right: 10px;
 }
-
-
 .btn {
     display: inline-block;
     background-color: #9F3434;
@@ -64,5 +64,5 @@ a::before{
     top: 5px;
     left: 5px;
     box-shadow: none;
-    
 }
+

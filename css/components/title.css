@@ -1,0 +1,9 @@
+h1 {
+    display: inline-flex;
+    font-family: "gang",sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    color:#9F3434 ;
+    text-shadow: 4px 4px 3px black;    
+}
+
