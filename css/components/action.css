@@ -1,0 +1,19 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    text-align: right;
+    color: white; /** cor*/
+    font-size: 20px;/** tamanho da fonte*/
+    font-weight: 500;
+    margin-right: 30px; /** tamanho da margem*/
+    text-shadow: 2px 2px 3px black; /** sobra no texto*/
+}
+
+.action::before{
+    content: "";
+    display: inline-block;
+    background-color: #9F3434;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}

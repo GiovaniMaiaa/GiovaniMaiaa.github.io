@@ -1,3 +1,42 @@
+body{
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
 body, h1, h2 {
     margin: 0px;
+}
+
+button {
+    display: inline-block;
+    border:none;  
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px black;
+    transition: 300ms;
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+}
+
+button:hover {
+    transform: scale(1.05);    
+}
+
+button:active {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: "gang", Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 3px black;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: inherit;
 }

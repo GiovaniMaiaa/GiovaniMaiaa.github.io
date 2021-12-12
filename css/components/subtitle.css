@@ -1,8 +1,4 @@
-h2 {
+.subtitle {
     font-size: 48px;
-    font-family: "gang", sans-serif; 
-    font-style: normal;
-    font-weight: normal;
     color:white;
-    text-shadow: 4px 4px 3px black;
 }
