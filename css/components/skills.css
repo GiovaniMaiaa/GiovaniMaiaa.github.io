@@ -1,25 +1,29 @@
 .skills {
     background-color: #3A4042;
     height: 750px;
+    padding: 0 240px;
+    border-bottom: 10px #9F3434 solid;
 }
 
-.skillname {
-    display: block;
-    font-family: "gang", Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 36px;
-    font-style: normal;
-    color:white;
-    margin-bottom: 10px;
-
+.container {
+    display: flex;
+    justify-content: center;    
 }
 
-.gamesleft {   
+.container-a {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-right: 100px;
 }
 
-.gamesright {
-    display: inline-block;
+.container-b {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img1 {
+    height: 90px;
+    width: 430px;
+    margin-bottom: 40px;
 }
