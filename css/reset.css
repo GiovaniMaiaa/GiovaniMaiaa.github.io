@@ -35,8 +35,14 @@ h1, h2, h3, h4 {
     text-shadow: 4px 4px 3px black;
     font-style: normal;
     font-weight: normal;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
 }
 
 a {
     text-decoration: inherit;
 }
+ p {
+     margin-block-end: 0;
+     margin-block-start: 0;
+ }

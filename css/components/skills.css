@@ -1,0 +1,25 @@
+.skills {
+    background-color: #3A4042;
+    height: 750px;
+}
+
+.skillname {
+    display: block;
+    font-family: "gang", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    font-style: normal;
+    color:white;
+    margin-bottom: 10px;
+
+}
+
+.gamesleft {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gamesright {
+    display: inline-block;
+}
