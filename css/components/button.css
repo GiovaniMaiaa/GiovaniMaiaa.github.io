@@ -25,7 +25,8 @@
     color: #9F3434; 
     padding-bottom: 17px;
     text-shadow: 1px 1px 4px black;   
-    box-shadow: 5px 5px 3px black;          
+    box-shadow: 5px 5px 3px black;
+    border-radius: 15px;          
 }
 .btn1:hover { 
     background-color: #FFC89A;
