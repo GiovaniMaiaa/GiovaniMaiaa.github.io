@@ -2,11 +2,11 @@
     display: inline-flex;
     align-items: center;
     text-align: right;
-    color: white; /** cor*/
-    font-size: 20px;/** tamanho da fonte*/
+    color: white;
+    font-size: 20px;
     font-weight: 500;
-    margin-right: 30px; /** tamanho da margem*/
-    text-shadow: 2px 2px 3px black; /** sobra no texto*/
+    margin-right: 30px;
+    text-shadow: 2px 2px 3px black;
 }
 
 .action::before{

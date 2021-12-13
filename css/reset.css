@@ -3,16 +3,15 @@ body{
     text-decoration: none;
 }
 
-body, h1, h2, h3, div {
+body, h1, h2, h3, div, button {
+    padding: 0px;
     margin: 0px;
 }
 
 button {
-    display: inline-block;
     border:none;  
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    border-radius: 15px;
-    box-shadow: 5px 5px 3px black;
+
     transition: 300ms;
     cursor: pointer;
     height: 60px;

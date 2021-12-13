@@ -3,3 +3,28 @@
     height: 520px;
     border-bottom: 10px #9F3434 solid;
 }
+
+.img2 {
+    flex-direction: row;
+    width: 245px;
+    height: 245px;
+    background-color: #3A4042;
+    background-size: 280px 280px;
+    padding: 35px;
+}
+.logos{
+    display: flex;
+    margin: 0 144px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.apps{
+    box-shadow:10px 10px 0 white;
+    height: 315px;
+}
+.apps:hover{
+    transform: scale(1.05);
+}
+.apps:active {
+    box-shadow: none;
+}
