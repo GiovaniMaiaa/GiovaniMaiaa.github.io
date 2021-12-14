@@ -1,0 +1,25 @@
+.input1 {
+    height: 50px;
+    border: 5px black solid;
+    border-radius: 15px;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    width: 1800px;
+    margin: 0 40px;
+}
+
+.input2 {
+    height: 320px;
+    border: 5px black solid;
+    border-radius: 15px;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    width: 1800px;
+    margin: 0 40px;
+    text-align: start;
+    text-justify: start;
+}

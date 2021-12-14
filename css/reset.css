@@ -29,7 +29,7 @@ button:active {
     box-shadow: none;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: "gang", Arial, Helvetica, sans-serif;
     text-shadow: 4px 4px 3px black;
     font-style: normal;

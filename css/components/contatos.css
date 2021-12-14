@@ -1,0 +1,20 @@
+.contatos {
+    background-color: #3A4042; 
+    height: 880px;
+}
+.contatos2{
+    display: inline;
+    flex-direction: column;
+    height: 675px;
+    width: 100%;
+    margin:0 40px;
+}
+
+.title2 {
+    color: white;
+    font-size: 30px;
+    font-family: "Fira Code";
+    font-style: normal;
+    font-weight: 300;
+    margin: 0 40px;
+}
