@@ -31,3 +31,17 @@
 .btn1:hover { 
     background-color: #FFC89A;
 }
+
+.enviar {
+    background-color: #9F3434;
+    box-shadow: 5px 5px 3px black;
+    width: 1800px;
+    margin: 0 40px;
+    border-radius: 15px;
+    margin-top: 40px;
+    color: white;
+    font-family: "Fira Code";
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
